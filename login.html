@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Entrar — Agendaí</title>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script>document.documentElement.classList.add("js"); setTimeout(function () { if (!window.__motion) document.documentElement.classList.remove("js") }, 2500)</script>
+</head>
+
+<body>
+  <main class="auth-shell"><a class="wordmark" href="index.html">agendaí<span>.</span></a>
+    <section class="auth-panel">
+      <p class="eyebrow">Boas-vindas de volta</p>
+      <h1>Entrar</h1>
+      <form id="login-form" class="stack">
+        <label>E-mail<input name="email" type="email" required autocomplete="email"></label>
+        <label>Senha<input name="password" type="password" required autocomplete="current-password"></label>
+        <button class="button" type="submit">Acessar minha conta</button>
+        <p id="form-message" class="form-message" role="status"></p>
+      </form>
+      <p class="muted small">Ainda não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+    </section>
+  </main>
+  <script type="module" src="js/pages/login.js"></script>
+  <script src="js/motion.js" defer></script>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <a class="wordmark" href="index.html">agendaí<span>.</span></a>
+      <nav aria-label="Todas as páginas" class="footer-links"><a href="index.html">Início</a><a
+          href="estabelecimento.html">Explorar estabelecimento</a><a href="cadastro.html">Criar conta</a><a
+          href="login.html">Entrar</a><a href="cliente/index.html">Área do cliente</a><a href="painel/index.html">Painel
+          do estabelecimento</a><a href="painel/agenda.html">Agenda</a><a href="painel/servicos.html">Serviços</a><a
+          href="termos.html">Termos de uso</a><a href="privacidade.html">Privacidade</a></nav>
+      <p class="muted small">Navegue por todas as áreas do Agendaí.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
