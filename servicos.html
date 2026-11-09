@@ -1,0 +1,13 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Serviços — Agendaí</title><link rel="stylesheet" href="../assets/css/tokens.css"><link rel="stylesheet" href="../assets/css/app.css"><script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__motion)document.documentElement.classList.remove("js")},2500)</script></head>
+<body><header class="site-header"><a class="wordmark" href="../index.html">agendaí<span>.</span></a><nav><a href="index.html">Estabelecimento</a><a href="agenda.html">Agenda</a><button id="logout" class="text-button">Sair</button></nav></header>
+<main class="container page-main"><p class="eyebrow">Painel</p><h1>Serviços</h1><form id="service-form" class="form-grid">
+<label>Nome<input name="name" required maxlength="100"></label><label>Duração (minutos)<input name="duration_minutes" type="number" min="5" max="480" step="5" value="30" required></label>
+<label>Preço (R$)<input name="price" type="number" min="0" step="0.01" value="0" required></label><label>Descrição<input name="description"></label>
+<div class="full"><button class="button" type="submit">Adicionar serviço</button><p id="form-message" class="form-message" role="status"></p></div></form>
+<div id="services-list" class="stack section"><p class="muted">Carregando...</p></div></main>
+<script type="module" src="../js/pages/services.js"></script><script src="../js/motion.js" defer></script><footer class="site-footer"><div class="site-footer-inner">
+      <a class="wordmark" href="../index.html">agendaí<span>.</span></a>
+      <nav aria-label="Todas as páginas" class="footer-links"><a href="../index.html">Início</a><a href="../estabelecimento.html">Explorar estabelecimento</a><a href="../cadastro.html">Criar conta</a><a href="../login.html">Entrar</a><a href="../cliente/index.html">Área do cliente</a><a href="index.html">Painel do estabelecimento</a><a href="agenda.html">Agenda</a><a href="servicos.html">Serviços</a><a href="../termos.html">Termos de uso</a><a href="../privacidade.html">Privacidade</a></nav>
+      <p class="muted small">Navegue por todas as áreas do Agendaí.</p>
+    </div></footer></body></html>
