@@ -1,0 +1,6 @@
+:root{
+ --cream:#ffedd7;--walnut:#100904;--bark:#382416;--cork:#40372e;--driftwood:#6c5f51;--ember:#dc5000;
+ --font:'halyard-display-variable',Inter,Söhne,'Neue Haas Grotesk',ui-sans-serif,system-ui,sans-serif;
+ --s1:6px;--s2:8px;--s3:12px;--s4:18px;--s5:24px;--s6:31px;--s7:41px;--s8:68px;
+ --r-card:12px;--r-button:36px;--r-outline:22.5px;
+}
